@@ -1,0 +1,40 @@
+[data-info] {
+    margin: 0;
+    padding: 0;
+    font-family: PingFangSC-Regula,sans-serif,Helvetica,Arial;
+    font-size: 20px;
+}
+.search-lists{
+    position: relative;
+    width: 91%;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    margin-left: 4.5%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 20px 0 rgba(0,121,197,.14);
+    box-shadow: 0 2px 20px 0 rgba(0,121,197,.14);
+}
+
+.info .line-list {
+    width: 91%;
+    border: 1px solid #ccc;
+    margin-top: 2%;
+    margin-left: 4.5%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 20px 0 rgba(0,121,197,.14);
+    box-shadow: 0 2px 20px 0 rgba(0,121,197,.14);
+	-webkit-box-orient:vertical;
+}
+.info .line-list .busline {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.info .line-list .stationNa {
+    position: relative;
+    top: 30%;
+    left: 0;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+    background: #d9f0ff;
+	box-flex: 1;
+}
