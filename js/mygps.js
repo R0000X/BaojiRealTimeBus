@@ -17,7 +17,7 @@ const onError = () => {
 }
 
 const initAMAP = () => {
-  const key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX', // 高德key
+  const key = '80087a0431514fc08f05b6fabad3c8d5', 
         MP = new Promise(function (resolve, reject) {
           window.init = function () {
             resolve(AMap)
